@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2024 Nissan Sentra</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+  <!-- Minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <!-- AnimateOnScroll CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <style>
+    /* CMS ovveride */
+    #page-body>div>div {
+      max-width: unset !important;
+      padding: 0 !important;
+    }
+    .container-max-md ,.page-section ,.p-4 ,.p-md-5 ,.px-lg-6 ,.px-xl-8{
+      display: none;
+    }
+    #content-description>h1 {
+      display: none;
+    }
+
+    /* GLOBAL */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /* outline: 1px solid lightgreen; */
+    }
+
+    /* text color */
+    .textwhite {
+      color: #ffffff;
+    }
+
+    .textdark {
+      color: #000000;
+    }
+
+    .dblock {
+      display: block;
+    }
+
+    /* font family */
+    #mainid {
+      font-family: "DDC Body Font Face",Georgia,"Times New Roman",Times,serif;
+    }
+
+    #mainid p,
+    #mainid ul {
+      font-weight: 400;
+      line-height: 1.3em;
+    }
+
+    #mainid p {
+      margin-top: 2%;
+    }
+
+    #mainid .title3848 {
+      font-weight: 400;
+      line-height: 1.3em;
+    }
+
+    #mainid .title2936 {
+      font-weight: 600;
+      line-height: 1.3em;
+    }
+
+    #mainid .title2430 {
+      font-weight: 700;
+      line-height: 1.3em;
+    }
+
+    #mainid .title1924 {
+      font-weight: 600;
+      line-height: 1.3em;
+    }
+
+    /* font weight */
+    #mainid .w700 {
+      font-weight: 700;
+    }
+
+    #mainid .w600 {
+      font-weight: 600;
+    }
+
+    #mainid .w500 {
+      font-weight: 500;
+    }
+
+    #mainid .w400 {
+      font-weight: 400;
+    }
+
+    /* line height */
+    #mainid p,
+    #mainid ul,
+    #mainid .title3848,
+    #mainid .title2936,
+    #mainid .title2430,
+    #mainid .title1924 {
+      line-height: 1.3em;
+    }
+
+    #mainid .button1 {
+      font-weight: 700;
+      line-height: 1em;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 15px 0;
+      outline: 1px solid #fff;
+      text-decoration: none;
+    }
+
+    /* dflex style */
+    .thischildflex {
+      flex: 1 1 auto;
+      min-width: 350px;
+      width: 100%;
+    }
+
+    .thischildflex2 {
+      flex: 2 2 auto;
+      min-width: 300px;
+      width: 100%;
+      max-width: 400px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    /* BUTTON styling*/
+    #mainid a.button1 {
+      cursor: pointer;
+    }
+
+    #mainid .button1:visited {
+      color: white;
+    }
+
+    #mainid .button1:hover {
+      text-decoration: none;
+      color: white;
+      background-color: #343a40;
+    }
+
+    /* IMAGES styling animation */
+    #mainid img.img-responsive:hover {
+      transform: scale(1.1);
+    }
+
+    #mainid img.img-responsive {
+      transition: all 0.3s;
+      width: 100%;
+    }
+
+    /* IMAGE parents is figure with class name .imgcontainer */
+    #mainid figure.imgcontainer {
+      position: relative;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .height100per {
+      height: 100%;
+    }
+    /* .img-position{
+      object-position: -390px 0px !important;
+    } */
+    #mainid figure>img.img-responsive {
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .thistheme-color {
+      background-color: #2b2b2b;
+      color: #ffffff;
+      padding: 3%;
+    }
+
+    /* Background Image tempalte */
+    /* display flex */
+    .thisflex {
+      display: flex;
+    }
+
+    .customliststyle1 li {
+      padding: 1%;
+      margin-top: 1%;
+    }
+
+    [class*="thiscol-"] {
+      margin-top: 1%;
+      /* padding: 0 15px; */
+    }
+
+    [class*="row-max"] {
+      width: 90%;
+      margin: auto;
+    }
+
+    /* .row-maxed{ max-width: 1300px; } */
+    .parallax-scroll>div>* {
+      padding: 2% 0;
+    }
+
+    .parallax-scroll>div {
+      margin: auto 0;
+    }
+
+    .parallax-scroll {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* CUSTOM GLOBAL below*/
+    #mainid .headh1 {
+      line-height: 0.9em;
+    }
+
+    #mainid .headh1,
+    #mainid .textalign-center {
+      text-align: center;
+    }
+
+    .bg-fullwidth-2 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Thrift-Meets-Thrill-On-Every-Journey.webp');
+    }
+
+    .bg-fullwidth-3 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Artful-Design-Inside-And-Out.webp');
+      background-position: 0 50%;
+    }
+
+    .bg-fullwidth-4 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernchevroletofburlington/uploads/2024/09/Next-Level-Safety.webp');
+    }
+
+    .bg-fullwidth-5 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Luxury-Meets-Practicality-Premium-Interiors-To-Suit-Your-Style.webp');
+    }
+
+    .bg-fullwidth-6 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernchevroletofBoone/uploads/2024/08/Experience-Enhanced-Capability.webp');
+    }
+
+    .bg-fullwidth-7 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Safety-As-A-Standard.webp');
+    }
+
+    .bg-fullwidth-8 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernchevroletofburlington/uploads/2024/09/2024-Chevy-Silverado-HD-Trims.webp');
+    }
+
+    .bg-fullwidth-9 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Top-Tier-Infotainment.webp');
+    }
+
+    .bg-fullwidth-10 {
+      background-image: url('https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Test-Drive-The-2024-Nissan-Sentra-In-Concord-North-Carolina-At-Modern-Nissan-Of-Concord.webp');
+    }
+
+    @media (min-width:768px) and (max-width:1024px) {
+      .parallax-scroll {
+        height: 35vh;
+      }
+    }
+
+    .parallax-scroll {
+      margin-top: 3%;
+      margin-bottom: 3%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      width: 100%;
+      height: 75vh;
+      overflow-y: auto;
+    }
+
+    #mainid div.cols3item {
+      padding: 3% 0;
+    }
+
+    #mainid div.cols3item>div.thisflex>div {
+      margin-top: 0;
+      padding: 2%;
+    }
+
+    #mainid div.cols3item>div.thisflex {
+      align-items: center;
+    }
+
+    /* MOBILE */
+    @media(max-width:767px) {
+
+      /* mobile height */
+      .height300m {
+        height: 300px;
+      }
+
+      /* For mobile phones: */
+      [class*="thiscol-"] {
+        width: 100%;
+        /* padding: 3%; */
+      }
+
+      .hidein-xs {
+        display: none;
+      }
+
+      /* mobile font */
+      #mainid p,
+      #mainid ul {
+        font-size: 18px;
+      }
+
+      #mainid ul>ul,
+      #mainid ul>li {
+        margin-left: 22px;
+      }
+
+      #mainid .title3848 {
+        font-size: 30px;
+      }
+
+      #mainid .title2936 {
+        font-size: 29px;
+      }
+
+      #mainid .title2430 {
+        font-size: 24px;
+      }
+
+      #mainid .title1924 {
+        font-size: 19px;
+      }
+
+      #mainid .button1 {
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+      }
+
+      .parallax-scroll {
+        height: 240px;
+      }
+
+      /* Custom mobile below*/
+      #mainid .text2column {
+        margin: 3% auto 10%;
+      }
+
+      #mainid div.cols3item>div>div:nth-child(2) {
+        border-color: #ffffff;
+        border-style: solid;
+        border-left: unset;
+        border-right: unset;
+      }
+
+      /* ovveride */
+      #mainid .headh1 {
+        color: #000000;
+      }
+
+      #lastbgimage>div>div.twobuttonrow>div {
+        display: unset;
+      }
+
+      #mainid div.cols3item>div.thisflex {
+        display: unset;
+      }
+
+      .thischildflex2 {
+        display: unset;
+      }
+    }
+
+    /* DESKTOP */
+    @media(min-width:768px) {
+
+      /* custom height */
+      /* flex tablet and up */
+      .thisrow.rowcenter {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+      }
+
+      .thisrow .colcenter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .thisrow .thischildflex2 {
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      #mainid p,
+      #mainid ul {
+        font-size: 22px;
+      }
+
+      #mainid ul>ul,
+      #mainid ul>li {
+        margin-left: 44px;
+      }
+
+      #mainid .title3848 {
+        font-size: 48px;
+      }
+
+      #mainid .title2936 {
+        font-size: 36px;
+      }
+
+      #mainid .title2430 {
+        font-size: 30px;
+      }
+
+      #mainid .title1924 {
+        font-size: 24px;
+      }
+
+      #mainid .button1 {
+        font-size: 18px;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+      }
+
+      /* column cutom css */
+      .thiscol-1 {
+        width: 8.33%;
+      }
+
+      .thiscol-2 {
+        width: 16.66%;
+      }
+
+      .thiscol-3 {
+        width: 25%;
+      }
+
+      .thiscol-4 {
+        width: 33.33%;
+      }
+
+      .thiscol-5 {
+        width: 41.66%;
+      }
+
+      .thiscol-6 {
+        width: 50%;
+      }
+
+      .thiscol-7 {
+        width: 58.33%;
+      }
+
+      .thiscol-8 {
+        width: 66.66%;
+      }
+
+      .thiscol-9 {
+        width: 75%;
+      }
+
+      .thiscol-10 {
+        width: 83.33%;
+      }
+
+      .thiscol-11 {
+        width: 91.66%;
+      }
+
+      .thiscol-12 {
+        width: 100%;
+      }
+
+      /* .parallax-scroll {
+        background-attachment: fixed;
+      } */
+
+      /* Custom desktop below*/
+      /* #bgimage1 { width: 90%; } */
+      
+
+      #mainid .text2column {
+        margin: 10% auto;
+      }
+
+      /* show in mobile only */
+      .showinxs {
+        display: none;
+      }
+
+      #mainid div.cols3item>div>div:nth-child(0) {
+        border-color: #ffffff;
+        border-style: solid;
+        border-top: unset;
+        border-bottom: unset;
+      }
+
+      /* override */
+      #mainid .headh1 {
+        color: #ffffff;
+        text-shadow: 0 1px 2px #000000;
+      }
+
+      #mainid .headh1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      #mainid #bannerbutton {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+
+    @media(max-width:992px) {
+
+      [id$="bgimage"] [class*="thisnormal"],
+      [class*="thisnormal"],
+      [id^="bgimage"]>[class*="thisnormal"] {
+        flex-direction: column;
+      }
+
+      [id$="bgimage"] [class*="thisreverse"],
+      [class*="thisreverse"],
+      [id^="bgimage"]>[class*="thisreverse"] {
+        flex-direction: column-reverse;
+      }
+
+      #lastbgimage>div>div>div>div:nth-child(1)>a {
+        margin-right: auto;
+      }
+
+      #lastbgimage>div>div>div>div:nth-child(2)>a {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .thischildflex2,
+      .thischildflex {
+        max-width: unset;
+        min-width: unset;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width:425px){
+      [class*="row-max"] {
+          width: 100%;
+      }
+    }
+    /* TABLET */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      #bgimage1 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/2024-Nissan-Sentra-At-Modern-Nissan-Of-Concord.webp");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+        height: 65vh;
+      }
+      [class*="row-max"] {
+          width: 100%;
+      }
+    }
+    
+
+    @media all and (min-width: 768px) and (max-width: 1024px) {
+
+      /* For mobile phones: */
+      [class*="thiscol-"] {
+        width: 100% !important;
+      }
+
+      .parallax-scroll {
+        height: 35vh;
+      }
+
+      ;
+      /* Custom tablet below*/
+    }
+
+    @media all and (min-width:1025px) {
+      #bgimage1 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/2024-Nissan-Sentra-At-Modern-Nissan-Of-Concord.webp");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+        height: 90vh;
+      }
+    }
+
+    /* WIDE SCREEN */
+    @media(min-width:1980px) {
+      [class*="row-max"] {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <div id="mainid" itemid="" itemtype="https://schema.org/Car" style="overflow: hidden;">
+    <span itemprop="model" content="Silverado HD"></span>
+    <span itemprop="name" content="2024 Nissan Sentra"></span>
+    <span itemprop="description"
+      content="Explore the 2024 Nissan Sentra HD in Concord, NC at Jake Sweeney Mazda Tri-County. Discover features, pricing, and offers for this luxury electric truck!"></span>
+    <span itemprop="alternateName" content="A Legacy Re-imagined for Family Adventures"></span>
+    <!-- section banner -->
+    <div id="bgimage1" style="position: relative;display: flex;">
+      <div class="textalign-center row-max thisflex" style="margin: 0 auto;">
+        <div class="thiscol-12" style="position: relative;">
+          <figure class="imgcontainer showinxs"><img itemprop="image"
+              src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/2024-Nissan-Sentra-At-Modern-Nissan-Of-Concord.webp"
+              loading="lazy" class="img-responsive" alt="2024 Nissan Sentra" title="2024 Nissan Sentra"></figure>
+          <h1 class="headh1 title3848 w700" data-aos="fade-right">
+            <span class="title3848 w700 dblock" data-aos="fade-right">
+              2025 Mazda CX-50
+            </span>
+            At Jake Sweeney Mazda Tri-County
+          </h1>
+          <a id="bannerbutton"
+            href="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Experience-The-2024-Nissan-Sentra.webp"
+            class="open-live-chat button1 btn thistheme-color" style="margin-top: 20px;">View Inventory</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div id="bgimage2" style="margin: 3% 0;">
+      <!-- full heading bg image -->
+      <div class="row-maxed rowcenter textalign-center">
+        <div class="thiscol-12">
+          <p class="title3848 textdark" style="margin: 0; font-weight: 600;" data-aos="fade-up">
+            Defining The Future Of Driving Pleasure
+          </p>
+          <!-- sub-title -->
+          <!-- <p class="title2936 textdark textalign-center" style="margin: 0;" data-aos="fade-up">
+            Conquering Every Obstacle
+          </p> -->
+          <p style="margin: 1% 0;">
+            Step into a world where comfort and innovation converge; the 2025 Mazda CX-50 is designed with you at heart. Imagine every drive as a joyful adventure, where every detail enhances life's moments and fuels your passions. Experience the perfect blend of elegance and excitement with the Mazda CX-50, and let each journey become an extraordinary escape.
+          </p>
+          <figure class="imgcontainer height100per" style="padding-top: 3%;"><img itemprop="image"
+              src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Experience-The-2024-Nissan-Sentra.webp"
+              loading="lazy" class="img-responsive height100per" alt="Defining The Future Of Driving Pleasure" title="Defining The Future Of Driving Pleasure" />
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div id="bgimage3" style="margin: 3% 0;">
+      <!-- full heading bg image -->
+      <div class="textalign-center bg-fullwidth-3 parallax-scroll" style="margin: 0;">
+        <div>
+          <p class="title3848 textdark" style="background: rgb(255 255 255 / 85%);" data-aos="fade-up">
+            Engineered For Capability And Responsiveness
+          </p>
+        </div>
+      </div>
+      <!-- two column reverse -->
+      <div class="thisrow row-maxed rowcenter thisflex thisnormal" style="margin-top: 0;">
+        <div class="thiscol-6 colcenter thistheme-color" data-aos="fade-left">
+          <p class="title3848">
+            The Power That Propels Adventure
+          </p>
+          <p>
+            Experience the perfect blend of power, versatility, and driving dynamics with the 2025 Mazda CX-50:
+            <ul>
+              <li><b>MacPherson strut with stabilizer bar:</b> Enhances ride stability and comfort.</li>
+                  <li><b>SKYACTIV®-Drive 6-speed automatic transmission with manual shift mode:</b> Provides seamless gear shifts and enhanced control.</li>
+                  <li><b>SKYACTIV®-G 2.5 DOHC 16-valve 4-cylinder engine with Cylinder Deactivation:</b> Balances power and efficiency.</li>
+            </ul>
+          </p>
+        </div>
+        <div class="thiscol-6" data-aos="fade-right">
+          <figure class="imgcontainer height100per"><img itemprop="image"
+              src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Find-Your-Fit.webp"
+              loading="lazy" class="img-responsive height100per" alt="Engineered For Capability And Responsiveness"
+              title="Engineered For Capability And Responsiveness" style="object-position: 65% 50%;" /></figure>
+        </div>
+      </div>
+      <div class="row-maxed rowcenter">
+        <div class="thiscol-12 thistheme-color textdark" style="display: flex; flex-direction: column;align-items: stretch;">
+            <p>
+              <ul>
+                <li><b>2,000 lbs of towing capacity:</b> Supports your hauling needs.</li>
+                <li><b>i-ACTIV AWD®:</b> Ensures optimal traction in various driving conditions.</li>
+                <li><b>185 lb-ft torque @ 4,000 rpm:</b> The SKYACTIV®-G 2.5 engine delivers robust performance.</li>
+                <li><b>Available Towing Mode on CX-50 2.5 Turbo:</b> Enhances stability while towing up to 3,500 lbs.</li>
+                <li><b>Mazda Intelligent Drive Select (Mi-Drive) Technology:</b> You can switch between Normal, Sport, Off-Road, and Towing modes for tailored driving experiences.</li>
+                <li><b>CX-50 2.5 Turbo models:</b> Feature a Twin-scroll Turbocharger for up to 256 horsepower and 320 lb-ft of torque.</li>
+              </ul>
+            </p>
+        </div>
+      </div>
+    </div>
+    
+<!-- 4 -->
+    <div id="bgimage4" style="margin: 3% 0;">
+      <div class="textalign-center bg-fullwidth-4 parallax-scroll" style="margin: 0;">
+        <div>
+          <p class="title3848 textdark" style="background: rgb(255 255 255 / 85%);" data-aos="fade-up">
+            Aesthetics Meets Functionality
+          </p>
+        </div>
+      </div>
+      <!-- two column reverse -->
+      <div class="thisrow row-maxed rowcenter thisflex thisreverse">
+        <div class="thiscol-7 colcenter thistheme-color" data-aos="fade-right">
+          <p class="title2936">Refined Design Inside &amp; Out</p>
+          <p>
+            Experience the 2025 Mazda CX-50, where power, elegance, and meticulous design converge to elevate every journey:
+          <ul>
+            <li><b>Leather-wrapped gear selector, steering wheel, and trim:</b> This feature infuses luxury and comfort into every drive with a premium grip and stylish, elevated interior.</li>
+            <li><b>Heated and ventilated front seats with 3-level adjustment:</b> Offers customizable warmth for ultimate comfort in cold weather and cooling relief on warm days.</li>
+            <li><b>60/40 split fold-down rear seatback with remote fold-down, generous cargo space, and smart storage solutions:</b> Provides versatile configurations and 56.3 cubic feet of space to accommodate all your gear, from family essentials to adventure equipment.</li>
+          </ul>
+          </p>
+        </div>
+        <div class="thiscol-5 height300m rightanimate-container" data-aos="fade-left">
+          <figure class="imgcontainer height100per"><img itemprop="image"
+              src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/Sleek-Sophisticated.webp"
+              loading="lazy" class="img-responsive height100per img-position" alt="Refined Design Inside & Out"
+              title="Refined Design Inside & Out" style="object-position: right" /></figure>
+        </div>
+      </div>
+      <div class="row-maxed rowcenter">
+        <div class="thiscol-12 thistheme-color textdark" style="display: flex; flex-direction: column;align-items: stretch;">
+            <p>
+              <ul>
+                <li><b>Panoramic Moonroof:</b> This lets you enjoy expansive views and natural light, enhancing every journey.</li>
+                <li><b>Dual exhaust outlets with bright finish:</b> Emphasizes the vehicle's dynamic presence and strength.</li>
+                <li><b>Power Liftgate with programmable height adjustment:</b> Adds convenience and versatility to your cargo management.</li>
+                <li><b>Advanced climate control system:</b> Keeps the interior at your ideal temperature, ensuring comfort in any weather.</li>
+              </ul>
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div id="bgimage5" style="margin: 3% 0;">
+      <!-- full heading bg image -->
+      <div class="textalign-center bg-fullwidth-5 parallax-scroll" style="margin: 0;">
+        <div>
+          <p class="title3848 textdark" style="background: rgb(255 255 255 / 85%);" data-aos="fade-up">
+            A Hub Of High-Tech Convenience At Your Fingertips
+          </p>
+        </div>
+      </div>
+      <!-- two column normal -->
+      <div class="thisrow row-maxed rowcenter thisflex thisnormal" style="margin-top: 0;">
+        <div class="thiscol-5" data-aos="fade-right">
+          <figure class="imgcontainer height100per"><img itemprop="image"
+              src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/nissan-sentra-2024-family-utilizing-mynissan-app-inside-car.webp" loading="lazy"
+              class="img-responsive height100per" alt="Luxury Meets Practicality: Premium Interiors To Suit Your Style"
+              title="Luxury Meets Practicality: Premium Interiors To Suit Your Style"
+              style="object-position: 65% 50%;" /></figure>
+        </div>
+        <div class="thiscol-7 colcenter thistheme-color" data-aos="fade-left">
+          <p class="title2936">
+            Stay Connected With Advanced Infotainment
+          </p>
+          <p>
+            <b>Discover seamless connectivity and advanced technology with the 2025 Mazda CX-50:</b>
+          <ul>
+            <li><b>10.25" Full-Color Display:</b> Your gateway to a comprehensive infotainment experience.</li>
+            <li><b>Bose® 12-Speaker Surround Sound System with Centerpoint® and AudioPilot:</b> Delivers immersive audio quality for every drive.</li>
+            <li><b>Infotainment System Voice Command:</b> Allows hands-free control for safer driving.</li>
+            <li><b>Wireless Charging Pad:</b> Ensures your devices remain powered up without the hassle of cables.</li>
+            <li><b>MyMazda App and Mazda Connected Services:</b> Offers remote vehicle access to locate, start the engine, lock, and unlock doors complimentary for one year.</li>
+            <li><b>Alexa Built-In:</b> Use voice commands to check your calendar, get directions, adjust the temperature, play music, and keep your hands on the wheel and your eyes on the road.</li>
+            <li><b>Wireless Apple CarPlay™ / Android Auto™:</b> Seamlessly integrates your smartphone to access apps and navigation easily.</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div id="bgimage6" style="margin: 3% 0;">
+      <!-- full heading bg image -->
+      <div class="textalign-center bg-fullwidth-9 parallax-scroll" style="margin: 0;">
+        <div>
+          <p class="title3848 textdark" style="background: rgb(255 255 255 / 85%);" data-aos="fade-up">
+            Proactive Protection For Peaceful Drives
+          </p>
+        </div>
+      </div>
+
+      <!-- two column reverse -->
+      <div class="thisrow row-maxed rowcenter thisflex thisreverse">
+        <div class="thiscol-8 colcenter thistheme-color" data-aos="fade-right">
+          <p class="title2936">
+            Active Safety &amp; Driver Assistance Features
+          </p>
+          <p>
+            <b>
+              Your safety is paramount, and the 2025 Mazda CX-50 delivers a comprehensive suite of advanced safety and driver assistance features. With Mazda's i-Activsense technology leading the charge, you can drive with confidence, knowing that cutting-edge innovations protect you:
+            </b>
+
+          <ul>
+            <li><b>Driver Attention Alert:</b> Keeps track of your driving patterns to alert you if it detects signs of drowsiness.</li>
+            <li><b>Vehicle Exit Warning:</b> Alerts you to approaching traffic when exiting the vehicle.</li>
+            <li><b>Blind Spot Monitoring with Rear Cross Traffic Alert:</b> Ensures you're aware of vehicles in your blind spots and approaching from behind.</li>
+            <li><b>Mazda Radar Cruise Control with Stop &amp; Go and Speed Limit Assist:</b> Adapts to traffic conditions, maintaining a safe distance and adjusting speed as needed.</li>
+          </ul>
+          </p>
+        </div>
+        <div class="thiscol-5 height300m rightanimate-container" data-aos="fade-left">
+          <figure class="imgcontainer height100per"><img itemprop="image"
+              src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/nissan-sentra-2024-display-8-inch-touch-screen-interface.webp" loading="lazy"
+              class="img-responsive height100per" alt="Active Safety & Driver Assistance Features" title="Active Safety & Driver Assistance Features"
+              style="object-position: 0% 50%;" /></figure>
+        </div>
+      </div>
+      <div class="row-maxed rowcenter">
+        <div class="thiscol-12 thistheme-color textdark" style="display: flex; flex-direction: column;align-items: stretch;">
+            <p>
+              <ul>
+                <li><b>Cruise Control with Stop and Go:</b> Helps manage your speed in traffic, reducing the need for constant adjustments.</li>
+            <li><b>Standard Automated Emergency Braking and Lane-Departure Warning with Lane-Keeping Assist:</b> Works proactively to prevent accidents by alerting you and applying brakes if necessary.</li>
+            <li><b>360-degree Exterior Camera System:</b> Provides a comprehensive view of your surroundings for easier maneuvering.</li>
+            <li><b>Heads-Up Display:</b> Projects key information onto the windshield, keeping essential details in your line of sight.</li>
+              </ul>
+            </p>
+        </div>
+      </div>
+    </div>
+
+      <!-- 8 -->
+      <div id="bgimage8" style="margin:3% 0;">
+        <!-- full heading head and text -->
+        <div class="row-maxed rowcenter">
+          <div class="thiscol-12 textalign-center" style="display: flex; flex-direction: column;align-items: stretch;">
+            <p class="title3848 textdark" style="margin: 0; font-weight: 600;" data-aos="fade-up">
+              From The Essential To The Exquisite  
+            </p>
+            <p class="title2936">
+              Exploring Trims &amp; Specs
+            </p>
+          </div>
+          <div class="thiscol-7 row-maxed colcenter thistheme-color" data-aos="fade-right" style="margin-top: 1%;">
+            <p>
+              Each trim level combines rugged off-road capabilities or luxurious features like heated rear seats and advanced driver aids, ensuring that no matter which you choose, you'll enjoy a journey tailored to your needs and preferences.
+            </p>
+          </div>
+        </div>
+        <!-- flex columns with min/max -->
+        <div class="thisrow row-maxed rowcenter textalign-center thisflex thisnormal"
+          style="margin-top: 0; flex-wrap: wrap; column-gap: 10px;justify-content: center;align-content: center;">
+          <div class="thischildflex2 colcenter thistheme-color" data-aos="fade-down-right">
+            <figure class="imgcontainer"><img itemprop="image"
+                src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/S.webp"
+                loading="lazy" class="img-responsive" alt="2.5 S Select" title="2.5 S Select" /></figure>
+            <p class="w700">2.5 S Select</p>
+          </div>
+          <div class="thischildflex2 colcenter thistheme-color" data-aos="fade-down-right">
+            <figure class="imgcontainer"><img itemprop="image"
+                src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/SV.webp"
+                loading="lazy" class="img-responsive" alt="2.5 S Preferred" title="2.5 S Preferred" /></figure>
+            <p class="w700">2.5 S Preferred</p>
+          </div>
+          <div class="thischildflex2 colcenter thistheme-color" data-aos="fade-down-right">
+            <figure class="imgcontainer"><img itemprop="image"
+                src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/SR.webp"
+                loading="lazy" class="img-responsive" alt="2.5 S Premium" title="2.5 S Premium" /></figure>
+            <p class="w700">2.5 S Premium</p>
+          </div>
+          <div class="thischildflex2 colcenter thistheme-color" data-aos="fade-down-right">
+            <figure class="imgcontainer"><img itemprop="image"
+                src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/S.webp"
+                loading="lazy" class="img-responsive" alt="2.5 S Premium Plus" title="2.5 S Premium Plus" /></figure>
+            <p class="w700">2.5 S Premium Plus</p>
+          </div>
+          <div class="thischildflex2 colcenter thistheme-color" data-aos="fade-down-right">
+            <figure class="imgcontainer"><img itemprop="image"
+                src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/SV.webp"
+                loading="lazy" class="img-responsive" alt="2.5 Turbo Meridian Edition" title="2.5 Turbo Meridian Edition" /></figure>
+            <p class="w700">2.5 Turbo Meridian Edition</p>
+          </div>
+          <div class="thischildflex2 colcenter thistheme-color" data-aos="fade-down-right">
+            <figure class="imgcontainer"><img itemprop="image"
+                src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/SR.webp"
+                loading="lazy" class="img-responsive" alt="2.5 Turbo Premium" title="2.5 Turbo Premium" /></figure>
+            <p class="w700">2.5 Turbo Premium</p>
+          </div>
+          <div class="thischildflex2 colcenter thistheme-color" data-aos="fade-down-right">
+            <figure class="imgcontainer"><img itemprop="image"
+                src="https://di-uploads-pod34.dealerinspire.com/modernnissanofconcord/uploads/2024/09/SR.webp"
+                loading="lazy" class="img-responsive" alt="2.5 Turbo Premium Plus" title="2.5 Turbo Premium Plus" /></figure>
+            <p class="w700">2.5 Turbo Premium Plus</p>
+          </div>
+        </div>
+        <div class="thiscol-7 row-maxed colcenter thistheme-color" data-aos="fade-right" style="margin-top: 1%;">
+          <p>
+            A new hybrid version of the Mazda CX-50, designed for your adventures, will soon be available, offering up to 219 hp and an EPA-estimated 38 combined city/highway mpg with an innovative on-demand e-AWD system and three distinct trim levels.
+          </p>
+        </div>
+      </div>
+      <!-- 10 bgimage only -->
+      <div id="bgimage10 textalign-center">
+        <!-- full heading bg image -->
+        <div class="textalign-center bg-fullwidth-10 parallax-scroll" style="margin: 0;"></div>
+      </div>
+      <!-- 12 -->
+      <div id="lastbgimage" style="padding: 3%;">
+        <!-- row 1 -->
+        <div class="row-maxed rowcenter thisflex textalign-center">
+          <div class="thiscol-12">
+            <h4 class="title2936" data-aos="fade-up">
+              Explore The 2025 Mazda CX-50 In Cincinnati, Ohio, At Jake Sweeney Mazda Tri-County	
+            </h4>
+            <p>
+              Looking for an SUV that perfectly combines comfort, performance, and cutting-edge design in Cincinnati, Ohio? Your search ends here with the new 2025 Mazda CX-50, now available at Jake Sweeney Mazda Tri-County! This groundbreaking SUV boasts a striking design, state-of-the-art technology, and top-tier safety features that will impress. Don’t miss your chance to experience the thrill firsthand; schedule a test drive today! Contact us or visit Jake Sweeney Mazda Tri-County to embark on your next adventure with the stunning 2025 Mazda CX-50.
+            </p>
+            <div class="twobuttonrow rowcenter thisflex thisnormal" style="margin-left: unset; margin-right: unset;">
+              <div class="thiscol-6" style="text-align: right; padding-right: 20px; padding-left: 20px; display: flex;">
+                <a class="button1 btn thistheme-color"
+                  href="https://www.modernnissanofconcord.com/new-vehicles/sentra/?q=sentra&_dFR%5Bmake%5D%5B0%5D=Nissan&_dFR%5Bmodel%5D%5B0%5D=Sentra&_dFR%5Btype%5D%5B0%5D=New&_dFR%5Byear%5D%5B0%5D=2024"
+                  style="margin-left: auto;margin-top: 20px; color: white;" data-aos="fade-right">View Inventory</a>
+              </div>
+              <div class="thiscol-6" style="text-align: left; padding-right: 20px; padding-left: 20px; display: flex;">
+                <a class="button1 btn thistheme-color" href="https://www.modernnissanofconcord.com/contact-us/"
+                  data-aos="fade-left" style="margin-top: 20px; color: white;">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12352.34127500149!2d-84.472959!3d39.2863156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88404e65fab7a94f%3A0x13d5d4e94c3fc808!2sJake%20Sweeney%20Mazda%20Tri-County!5e0!3m2!1sen!2sus!4v1726234837951!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('[class*="open-live-chat"]').forEach(function (element) {
+          element.addEventListener('click', function () {
+            document.querySelector('div.gg-app > div.sc-gtsrHT.gcTBud.guba-global-styles-wrapper > div > div > button').click();
+          });
+        });
+      });
+    </script>
+</div>
+</body>
+
+</html>
